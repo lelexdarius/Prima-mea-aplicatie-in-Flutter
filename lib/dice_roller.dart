@@ -26,12 +26,8 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/poza-$currentDiceRoll.jpg',
-          width: 500,
-        ),
-        const SizedBox(
-          width: 50,
-          height: 50,
+          'assets/images/dice-$currentDiceRoll.png',
+          width: 200,
         ),
         TextButton(
           onPressed: rollDice,
@@ -44,7 +40,7 @@ class _DiceRollerState extends State<DiceRoller> {
               fontSize: 28,
             ),
           ),
-          child: const Text('Masina random (click)'),
+          child: const Text('Arunca zarul'),
         ),
       ],
     );
